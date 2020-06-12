@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <title>E-EXAM</title>
+    <link href="static/icon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="static/style.css">   
+</head>
+<body>
+
+    <header class="cf">
+        <div class="header">   
+            <img class="logo_unesa" src="static/logo.png" alt="UNESA logo"> 
+            <div class="title">
+                <h1>Electronic Exam</h1>
+                <h2>Made by UNESA</h2>
+            </div>
+            <img class="logo_informatika" src="static/Informatika.png" alt="Informatika logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="2_dashboard.html">DASHBOARD</a></li>
+                <li><a href="2_profil.html">PROFIL</a></li>
+                <li><a href="2_bantuan.html">BANTUAN</a></li>
+                <li><a href="index.html">LOGOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <main>
+            <div class="container cf">
+                <div class="profil">
+                    <div class="img"></div>
+                    <p>M. Budi Sulaiman</p>
+                    <p>Bhs. Inggris</p>
+                    <p>1923132154</p>
+                </div>
+
+                <article class="add_ujian">
+                    <h1>Tambah Ujian</h1>
+
+                    <table>
+                        <tr>
+                            <td>Pelajaran</td>
+                            <td>:</td>
+                            <td><input type="text"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Tipe Ujian</td>
+                            <td>:</td>
+                            <td>
+                                <select>
+                                    <option>Ujian Harian</option>
+                                    <option>Ujian Tengah Semester</option>
+                                    <option>Ujian Akhir Semester</option>
+                                </select>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Tanggal Ujian</td>
+                            <td>:</td>
+                            <td><input type="text" placeholder="dd/mm/yy"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Jam Ujian</td>
+                            <td>:</td>
+                            <td><input type="time"></td>
+                        </tr>
+                    </table>
+
+                    <button class="add" onclick="window.location.href='2_addSoal.html';">Tambah Soal</button>
+                </article>
+            </div>  
+        </main>
+    
+        <footer class="cf">
+            <div class="about_us">
+                <p class="about_us_text">About us</p>
+                <div class="author">
+                    <p class="author_name">Yusril Adriansyah Putra</p>
+                    <p class="author_univ">Universitas Negeri Surabya</p>
+                    <p class="author_phone">087854029394</p>
+                </div>
+
+                <div class="author">
+                    <p class="author_name">Anjar Septya Ningrum</p>
+                    <p class="author_univ">Universitas Negeri Surabya</p>
+                    <p class="author_phone">085546316976</p>
+                </div>
+
+                <div class="author">
+                    <p class="author_name">Martinus A. M.</p>
+                    <p class="author_univ">Universitas Negeri Surabya</p>
+                    <p class="author_phone">081216402125</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy Copyright by Universitas Negeri Surabaya</p>
+            </div>
+        </footer>
+    
+</body>
+</HTML>

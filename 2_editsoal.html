@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <title>E-EXAM</title>
+    <link href="static/icon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="static/style.css">   
+</head>
+<body>
+
+    <header class="cf">
+        <div class="header">   
+            <img class="logo_unesa" src="static/logo.png" alt="UNESA logo"> 
+            <div class="title">
+                <h1>Electronic Exam</h1>
+                <h2>Made by UNESA</h2>
+            </div>
+            <img class="logo_informatika" src="static/Informatika.png" alt="Informatika logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="2_dashboard.html">DASHBOARD</a></li>
+                <li><a href="2_profil.html">PROFIL</a></li>
+                <li><a href="2_bantuan.html">BANTUAN</a></li>
+                <li><a href="index.html">LOGOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <main>
+            <div class="container cf">
+                <div class="profil">
+                    <div class="img"></div>
+                    <p>M. Budi Sulaiman</p>
+                    <p>Bhs. Inggris</p>
+                    <p>1923132154</p>
+                </div>
+
+                <article class="add_soal">
+                    <h1>Edit Soal</h1>
+
+                    <table>
+                        <tr>
+                            <td>Nomor</td>
+                            <td>:</td>
+                            <td><input type="number" placeholder="1" disabled></td>
+                        </tr>
+
+                        <tr>
+                            <td>Soal</td>
+                            <td>:</td>
+                            <td class="soal_text">
+                                <input type="text">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Jawaban A</td>
+                            <td>:</td>
+                            <td><input type="text" required></td>
+                        </tr>
+
+                        <tr>
+                            <td>Jawaban B</td>
+                            <td>:</td>
+                            <td><input type="text" required></td>
+                        </tr>
+
+                        <tr>
+                            <td>Jawaban C</td>
+                            <td>:</td>
+                            <td><input type="text" required></td>
+                        </tr>
+
+                        <tr>
+                            <td>Jawaban D</td>
+                            <td>:</td>
+                            <td><input type="text" required></td>
+                        </tr>
+
+                        <tr>
+                            <td>Jawaban yang benar</td>
+                            <td>:</td>
+                            <td>
+                                <select>
+                                    <option>A</option>
+                                    <option>B</option>
+                                    <option>C</option>
+                                    <option>D</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="button cf">
+                        <button class="before">Sebelumnya</button>
+                        <button class="done" onclick="window.location.href='2_dashboard.html';">Selesai</button>
+                        <button class="next" onclick="window.location.href='2_editSoal.html';">Selanjutnya</button>
+                    </div>
+                </article>
+            </div>  
+        </main>
+    
+        <footer class="cf">
+            <div class="about_us">
+                <p class="about_us_text">About us</p>
+                <div class="author">
+                    <p class="author_name">Yusril Adriansyah Putra</p>
+                    <p class="author_univ">Universitas Negeri Surabya</p>
+                    <p class="author_phone">087854029394</p>
+                </div>
+
+                <div class="author">
+                    <p class="author_name">Anjar Septya Ningrum</p>
+                    <p class="author_univ">Universitas Negeri Surabya</p>
+                    <p class="author_phone">085546316976</p>
+                </div>
+
+                <div class="author">
+                    <p class="author_name">Martinus A. M.</p>
+                    <p class="author_univ">Universitas Negeri Surabya</p>
+                    <p class="author_phone">081216402125</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy Copyright by Universitas Negeri Surabaya</p>
+            </div>
+        </footer>
+    
+</body>
+</HTML>
